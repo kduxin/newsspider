@@ -1,0 +1,960 @@
+1545278038056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.Qfsxfl8qFY51"
+1545278044838	Marionette	INFO	Listening on port 49610
+[Child 82760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil1545278045000	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/here-s-what-you-need-to-know-about-the-financial-aid-program-obama-quietly-killed, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 3: Error: Invalid resource
+[Parent 82052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 1: ReferenceError: _cc12098 is not defined
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 82052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 61572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 61572, Chrome1545278087065	Marionette	INFO	Stopped listening on port 49610
+[GPU
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545278419035	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.A1pyaVJnph3p"
+1545278420822	Marionette	INFO	Listening on port 50230
+1545278421222	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Child 17776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 17776, Chrome_ChildThread] WARNING: pipe error: 109: fi[le z:Child 4012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 41545278427564	Marionette	INFO	Stopped listening on port 50230
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545278435129	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.fUNDTnshvwzY"
+1545278436698	Marionette	INFO	Listening on port 50285
+1545278436803	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 75668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 64800, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 82308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi1545278448534	Marionette	INFO	Stopped listening on port 50285
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545278474761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.8o6JQgUA8dqZ"
+1545278476275	Marionette	INFO	Listening on port 50338
+1545278476439	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/here-s-what-you-need-to-know-about-the-financial-aid-program-obama-quietly-killed, line 3: Error: Invalid resource
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 3972, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 8832, Chrome_ChildThread] WARNING: pipe error: 109: 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src1545278509191	Marionette	INFO	Stopped listening on port 50338
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 31852
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545278526825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.g0Ie9ZN6lZ1j"
+1545278528366	Marionette	INFO	Listening on port 50520
+1545278528508	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/here-s-what-you-need-to-know-about-the-financial-aid-program-obama-quietly-killed, line 3: Error: Invalid resource
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/why-china-wants-to-rain-on-obama-s-india-parade, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/why-china-wants-to-rain-on-obama-s-india-parade, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/8FCGYgk4/init.js, line 4: NS_ERROR_FAILURE: 
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/u-s-embassy-in-yemen-closed-to-public-due-to-security-concerns, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/more-sorority-parties-could-mean-less-campus-rape, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/shovel-your-sidewalk-or-else, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/investing-in-russia-so-crazy-it-just-might-work, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/marsala-wine-is-coming-back-here-s-where-to-get-the-best-of-it, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/there-s-more-in-flight-wi-fi-than-ever, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/there-s-more-in-flight-wi-fi-than-ever, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/there-s-more-in-flight-wi-fi-than-ever, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/decline-of-arranged-marriages-helps-the-fight-against-poverty, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/the-east-coast-becomes-a-no-fly-zone, line 3: Error: Invalid resource
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60122251/20180831090046504/template_300x600.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=CUrgYRQoEe&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/tsa-whistle-blower-s-supreme-court-win-bittersweet-after-nine-year-exile, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/tsa-whistle-blower-s-supreme-court-win-bittersweet-after-nine-year-exile, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/tsa-whistle-blower-s-supreme-court-win-bittersweet-after-nine-year-exile, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/science-fiction-recommendations-for-a-snow-day, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/the-end-of-piperlime-gap-wants-only-extra-large-brands, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/six-musicians-who-got-busted-for-plagiarizing, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/how-obama-s-3-trillion-health-care-overhaul-would-work, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/in-weather-battles-mother-nature-still-trumps-forecasting-tech, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-30/addiction-treatment-goes-public-aac-s-recovery-center-empire, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/apple-watch-will-ship-in-april, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/sanctions-aren-t-enough-to-stop-putin-and-he-knows-it, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/why-luxury-brands-love-china-s-sex-and-the-city-, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/why-luxury-brands-love-china-s-sex-and-the-city-, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/why-luxury-brands-love-china-s-sex-and-the-city-, line 3: Error: Invalid resource
+[Child 53712, MediaPlayback #3] WARNING: 1788217f280 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 53712, MediaPlayback #1] WARNING: Decoder=178811d8400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+JavaScript error: https://www.bloomberg.com/8FCGYgk4/init.js, line 4: NS_ERROR_FAILURE: 
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/viewabill-helps-companies-monitor-legal-bills-in-real-time, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/take-two-aims-to-sell-more-evolve-game-downloads-than-discs, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/sap-looks-to-xerox-for-r-d-inspiration-builds-idea-lab, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/alibaba-s-jack-ma-on-early-obstacles-his-ambitions, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/cern-must-raise-funds-to-help-pay-for-atom-smasher-upgrade, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/uber-lyft-bet-big-on-carpool-services, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/declining-euro-currency-jolts-art-market, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/heads-of-india-s-state-owned-banks-earn-low-wages, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/bond-market-money-managers-buying-debt-with-negative-yields, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/iran-s-president-confronts-conservatives-over-taxes, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/king-abdullah-s-legacy-how-saudi-arabia-did-and-didn-t-change, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/south-korea-faces-deflationary-trap-thanks-to-japan-s-weak-yen, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/a-u-s-economist-s-book-turns-into-a-hit-in-china, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/u-s-companies-grow-older-and-hire-less, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/brazil-s-petrobras-corruption-scandal-a-web-comic, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/the-worst-career-advice-i-ve-ever-received, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/best-winter-resorts-for-non-skiing-fun, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/furniture-making-on-tv-framework-and-ellen-s-design-challenge, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/spongebob-new-movie-12-billion-in-endorsement-deals, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/for-a-cheap-super-bowl-bet-think-ivy-league, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/what-i-wear-to-work-hetrick-martin-institute-s-darra-gordon, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/reddit-co-founder-alexis-ohanian-s-career-path, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/how-airlines-got-smarter-about-canceling-flights, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/activists-fight-merger-of-two-companies-accused-of-preying-on-students, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/here-s-what-the-blizzard-is-shutting-down, line 3: Error: Invalid resource
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/amInstallTrigger.js, line 41: TypeError: this.mm is null
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/in-shift-whole-foods-to-compete-with-price-cuts-loyalty-app, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/u-s-economy-after-recovery-needs-rest-of-world-to-grow-too, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/businessweek-s-american-economy-cover-how-we-made-it, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/northeastern-blizzard-elicits-time-tested-conservative-responses-on-climate-change, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/video-this-is-the-future-of-drones, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/vcs-are-getting-paid-a-ton-and-theyre-still-not-happy, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/obamacare-the-gops-latest-attack-adds-53-billion-to-deficit, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/oil-below-50-is-still-good-news, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/i-put-on-the-new-oculus-rift-headset-this-is-what-i-saw, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/does-anyone-really-want-a-smart-watch, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/paris-newspaper-attack-wasnt-stopped-by-antiterror-arrests, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/oil-falls-below-50-goldmans-guru-says-the-crash-is-right-on-time, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/the-gmat-math-rule-you-need-to-know, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/texas-abortion-clinics-dwindle-activists-mobilize, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/samsung-and-yves-bhar-have-made-an-82inch-tv-thats-not-hideous, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/starbucks-serves-up-flat-whites-tries-to-prove-it-can-still-be-different, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/sat-geometry-mastering-triangles, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/columbia-river-bridge-replacement-killed-by-politics, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/getting-into-law-school-is-easier-than-it-used-to-be-and-thats-not-good, line 3: Error: Invalid resource
+JavaScript error: resource:///actors/PageStyleChild.jsm, line 17: TypeError: mm is null
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/what-drivers-want-design-lessons-from-fords-mytouch-debacle, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/wet-seal-employees-say-company-layoffs-were-a-surprise, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/intel-wants-a-less-white-less-male-workforce-that-will-be-tough, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/polaroids-plan-to-get-millennials-to-print-their-photos, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/indias-courts-resist-reform-backlog-at-314-million-cases, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/cubas-skilled-workers-likely-to-lure-investors, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/chinas-shirt-factories-invest-in-efficiency-as-wages-rise, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-05/whats-the-point-of-a-curved-smartphone, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/jesuischarlie-rallies-spread-in-europe-as-paris-shows-no-fear, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/the-little-known-programming-problem-inside-dynamic-scoring, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/how-french-weekly-charlie-hebdo-became-a-terrorist-target-i4n67r14, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/these-smart-home-products-are-actually-smart-to-buy, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-05/spacex-falcon-9-will-launch-on-floating-ocean-platform, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-09/proof-that-college-football-refs-are-riddled-with-bias, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/samsungs-smart-home-master-plan-leave-the-door-open-for-others, line 3: Error: Invalid resource
+JavaScript error: resource:///actors/PageStyleChild.jsm, line 17: TypeError: mm is null
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/fccs-wheeler-warms-up-to-obamas-wishes-on-net-neutrality, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/ceo-pension-benefits-bigger-than-pay-advantage, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/indias-discount-airlines-get-vistara-as-upscale-rival, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/medical-clinics-take-over-malls-empty-spaces, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/company-news-auto-industry-us-steel-verizon-aol-keurig-dr-pepper-snapple-monster-beats-htc, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/the-u-dot-s-dot-oil-trade-deficit-has-never-been-lower, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/businessweeks-jet-dot-com-cover-how-we-made-it, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/winter-depression-tips-light-therapy, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/winter-depression-tips-alarm-clocks-that-brighten-gradually, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/winter-depression-tips-sads-history, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-09/my-worst-winter-ever, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/how-optimism-strengthens-economies, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/citi-ceo-cant-curb-banks-risk-appetite, line 3: Error: Invalid resource
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/amInstallTrigger.js, line 41: TypeError: this.mm is null
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/cuban-bonds-think-twice-before-buying, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/the-insane-price-of-espns-college-football-ratings-triumph-i4lm4lf3, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/hedge-funds-a-2015-outlook, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-05/fighting-disease-not-terrorism-will-save-more-lives-in-2015, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/ces-auto-show-web-connected-cars-are-stars-of-2015, line 3: Error: Invalid resource
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/amInstallTrigger.js, line 41: TypeError: this.mm is null
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-05/this-bike-helmet-can-tell-you-when-cars-get-too-close, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/in-leveraged-loans-market-borrowers-can-blacklist-investors, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-04/withings-releases-a-150-smartwatch-called-pop, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/why-planes-can-still-vanish-airlines-slow-to-upgrade-tracking-tech, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-02/kanye-wests-only-one-isnt-very-good-but-it-is-selling-i4g546uv, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-09/the-one-big-disappointment-from-todays-jobs-report, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-02/french-economist-thomas-piketty-faces-trial-by-peers-i4g1wes7, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-02/ces-2015-this-years-tech-anxiety-is-ending-up-like-tv-makers, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-02/why-you-should-care-about-greece-again, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/layout/right_rail/right_rail-6f93c87d09.desktop.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-02/white-castle-introduces-veggie-sliders, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/what-smart-light-bulbs-do-best-hide-your-other-uglier-gadgets, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/winter-depression-tips-how-to-make-work-more-bearable, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-09/this-chart-shows-the-jump-in-u-dot-s-dot-energy-jobs-while-oil-collapsed, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/daimler-ceo-dr-z-the-future-of-the-car-is-passengers-not-drivers, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-09/saks-and-co-dot-in-legal-fight-over-transgender-former-employee, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/fitness-tracker-or-bionic-ear-the-dash-wireless-ear-buds-might-be-both, line 3: Error: Invalid resource
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/[Parent 90128, Gecko_IOThread] WARNING: pipe error: 109: [Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 85724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line1545280904150	Marionette	INFO	Listening on port 52831
+1545280904229	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://client.perimeterx.net/PXSNy1D9MW/main.min.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://client.perimeterx.net/PXSNy1D9MW/main.min.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://client.perimeterx.net/PXSNy1D9MW/main.min.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://client.perimeterx.net/PXSNy1D9MW/main.min.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 93252, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 93252, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Thread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 93388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 93388, C1545281198557	Marionette	INFO	Stopped listening on port 52902
+[
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+e_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 96240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 85612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch1545281146687	Marionette	INFO	Stopped listening on port 52996
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545281170808	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.1fk53srTOrYf"
+1545281172423	Marionette	INFO	Listening on port 53098
+1545281172515	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 96336, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 96336, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 96336, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 96836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 961545281183400	Marionette	INFO	Stopped listening on port 53098
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545281199449	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.rClGa6F9epsQ"
+1545281201110	Marionette	INFO	Listening on port 53170
+1545281201143	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/here-s-what-you-need-to-know-about-the-financial-aid-program-obama-quietly-killed, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 3: Error: Invalid resource
+[Parent 97048, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 1: NS_ERROR_FAILURE: 
+[Child 79200, MediaPlayback #1] WARNING: 21478611ac0 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 79200, MediaPlayback #1] WARNING: Decoder=21461eb7000 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 79200, MediaPlayback #1] WARNING: Decoder=21461eb7000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 79200, MediaPlayback #2] WARNING: 2147989aac0 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 79200, MediaPlayback #2] WARNING: Decoder=214671a8000 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 79200, MediaPlayback #2] WARNING: Decoder=214671a8000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 79200, MediaPlayback #2] WARNING: 2147c483280 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 79200, MediaPlayback #2] WARNING: Decoder=2146af3c400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/why-china-wants-to-rain-on-obama-s-india-parade, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/u-s-embassy-in-yemen-closed-to-public-due-to-security-concerns, line 3: Error: Invalid resource
+[Parent 97048, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 92948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9[Parent 97048, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Child 79200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome[Parent 97048, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 92976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch1545281248906	Marionette	INFO	Stopped listening on port 53170
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545281255210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.pCpD7V6NZpwf"
+1545281256736	Marionette	INFO	Listening on port 53500
+1545281256909	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/here-s-what-you-need-to-know-about-the-financial-aid-program-obama-quietly-killed, line 3: Error: Invalid resource
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 1: NS_ERROR_FAILURE: 
+[Child 85960, MediaPlayback #2] WARNING: 2d1e1372ac0 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 85960, MediaPlayback #1] WARNING: Decoder=2d1d6785400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 85960, MediaPlayback #1] WARNING: Decoder=2d1d6785400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 85960, MediaPlayback #2] WARNING: 2d1e34dc1c0 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 85960, MediaPlayback #2] WARNING: Decoder=2d1d681dc00 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 85960, MediaPlayback #2] WARNING: Decoder=2d1d681dc00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 85960, MediaPlayback #1] WARNING: 2d1e3806b80 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 85960, MediaPlayback #1] WARNING: Decoder=2d1d683f800 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+JavaScript error: https://static.adsafeprotected.com/main.17.4.163.js, line 111: NS_ERROR_NOT_INITIALIZED: 
+[Parent 70428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 85960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 85960, Chrome_ChildThread] WAR1545281320868	Marionette	INFO	Stopped listening on port 53500
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545281342614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.EXMaAWghI3zp"
+1545281344302	Marionette	INFO	Listening on port 53771
+1545281344802	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/here-s-what-you-need-to-know-about-the-financial-aid-program-obama-quietly-killed, line 3: Error: Invalid resource
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/why-china-wants-to-rain-on-obama-s-india-parade, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/why-china-wants-to-rain-on-obama-s-india-parade, line 1: NS_ERROR_FAILURE: 
+[Child 82432, MediaPlayback #2] WARNING: 1c3929ae4c0 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 82432, MediaPlayback #4] WARNING: Decoder=1c3909fc800 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 82432, MediaPlayback #4] WARNING: Decoder=1c3909fc800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 82432, MediaPlayback #3] WARNING: 1c38a32d340 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 82432, MediaPlayback #3] WARNING: Decoder=1c38f4a8c00 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 82432, MediaPlayback #3] WARNING: Decoder=1c38f4a8c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 82432, MediaPlayback #1] WARNING: 1c396b92a00 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 82432, MediaPlayback #1] WARNING: Decoder=1c392923400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/u-s-embassy-in-yemen-closed-to-public-due-to-security-concerns, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/more-sorority-parties-could-mean-less-campus-rape, line 3: Error: Invalid resource
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60123845/20180831090039720/template_728x90.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=Fkr2KZLRao&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/shovel-your-sidewalk-or-else, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/investing-in-russia-so-crazy-it-just-might-work, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/investing-in-russia-so-crazy-it-just-might-work, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/marsala-wine-is-coming-back-here-s-where-to-get-the-best-of-it, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/there-s-more-in-flight-wi-fi-than-ever, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/decline-of-arranged-marriages-helps-the-fight-against-poverty, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/the-east-coast-becomes-a-no-fly-zone, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/tsa-whistle-blower-s-supreme-court-win-bittersweet-after-nine-year-exile, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/science-fiction-recommendations-for-a-snow-day, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/the-end-of-piperlime-gap-wants-only-extra-large-brands, line 3: Error: Invalid resource
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/amInstallTrigger.js, line 41: TypeError: this.mm is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/six-musicians-who-got-busted-for-plagiarizing, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/how-obama-s-3-trillion-health-care-overhaul-would-work, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/in-weather-battles-mother-nature-still-trumps-forecasting-tech, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-30/addiction-treatment-goes-public-aac-s-recovery-center-empire, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/apple-watch-will-ship-in-april, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/sanctions-aren-t-enough-to-stop-putin-and-he-knows-it, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/why-luxury-brands-love-china-s-sex-and-the-city-, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/viewabill-helps-companies-monitor-legal-bills-in-real-time, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/take-two-aims-to-sell-more-evolve-game-downloads-than-discs, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/sap-looks-to-xerox-for-r-d-inspiration-builds-idea-lab, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/alibaba-s-jack-ma-on-early-obstacles-his-ambitions, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/cern-must-raise-funds-to-help-pay-for-atom-smasher-upgrade, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/cern-must-raise-funds-to-help-pay-for-atom-smasher-upgrade, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/cern-must-raise-funds-to-help-pay-for-atom-smasher-upgrade, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/8FCGYgk4/init.js, line 4: NS_ERROR_FAILURE: 
+JavaScript error: https://www.bloomberg.com/8FCGYgk4/init.js, line 4: NS_ERROR_FAILURE: 
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/uber-lyft-bet-big-on-carpool-services, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/declining-euro-currency-jolts-art-market, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/heads-of-india-s-state-owned-banks-earn-low-wages, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/bond-market-money-managers-buying-debt-with-negative-yields, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/iran-s-president-confronts-conservatives-over-taxes, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/king-abdullah-s-legacy-how-saudi-arabia-did-and-didn-t-change, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/south-korea-faces-deflationary-trap-thanks-to-japan-s-weak-yen, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/a-u-s-economist-s-book-turns-into-a-hit-in-china, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/u-s-companies-grow-older-and-hire-less, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/brazil-s-petrobras-corruption-scandal-a-web-comic, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/the-worst-career-advice-i-ve-ever-received, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/best-winter-resorts-for-non-skiing-fun, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/furniture-making-on-tv-framework-and-ellen-s-design-challenge, line 3: Error: Invalid resource
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/amInstallTrigger.js, line 41: TypeError: this.mm is null
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/spongebob-new-movie-12-billion-in-endorsement-deals, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/for-a-cheap-super-bowl-bet-think-ivy-league, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://a.teads.tv/page/63027/tag, line 6: TypeError: frameElement is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/what-i-wear-to-work-hetrick-martin-institute-s-darra-gordon, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/reddit-co-founder-alexis-ohanian-s-career-path, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/how-airlines-got-smarter-about-canceling-flights, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.0/angular.min.js, line 7: Error: [$injector:modulerr] http://errors.angularjs.org/1.7.0/$injector/modulerr?p0=brandApp&p1=%5B%24injector%3Amodulerr%5D%20http%3A%2F%2Ferrors.angularjs.org%2F1.7.0%2F%24injector%2Fmodulerr%3Fp0%3DngSanitize%26p1%3D%2524SanitizeProvider%252FgetInertBodyElement%253C%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.7.0%252Fangular-sanitize.js%253A436%253A5%250A%2524SanitizeProvider%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.7.0%252Fangular-sanitize.js%253A434%253A76%250Ainstantiate%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A45%253A104%250Ac%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A42%253A17%250Ad%252F%253C%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A41%253A468%250Ad%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A42%253A399%250Ag%252F%253C%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A43%253A1%250Aq%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A7%253A486%250Ag%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A42%253A308%250Ag%252F%253C%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A42%253A492%250Aq%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A7%253A486%250Ag%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A42%253A308%250Afb%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A46%253A400%250Ac%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A22%253A57%250AVc%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A22%253A370%250Axe%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A21%253A45%250A%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A339%253A241%250Ai%2540https%253A%252F%252Fcode.jquery.com%252Fjquery-2.2.4.min.js%253A2%253A27146%250AfireWith%2540https%253A%252F%252Fcode.jquery.com%252Fjquery-2.2.4.min.js%253A2%253A27914%250Aready%2540https%253A%252F%252Fcode.jquery.com%252Fjquery-2.2.4.min.js%253A2%253A29705%250AJ%2540https%253A%252F%252Fcode.jquery.com%252Fjquery-2.2.4.min.js%253A2%253A29890%250A%0AL%2F%3C%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A7%3A76%0Ag%2F%3C%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A43%3A223%0Aq%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A7%3A486%0Ag%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A42%3A308%0Ag%2F%3C%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A42%3A492%0Aq%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A7%3A486%0Ag%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A42%3A308%0Afb%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A46%3A400%0Ac%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A22%3A57%0AVc%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A22%3A370%0Axe%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A21%3A45%0A%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A339%3A241%0Ai%40https%3A%2F%2Fcode.jquery.com%2Fjquery-2.2.4.min.js%3A2%3A27146%0AfireWith%40https%3A%2F%2Fcode.jquery.com%2Fjquery-2.2.4.min.js%3A2%3A27914%0Aready%40https%3A%2F%2Fcode.jquery.com%2Fjquery-2.2.4.min.js%3A2%3A29705%0AJ%40https%3A%2F%2Fcode.jquery.com%2Fjquery-2.2.4.min.js%3A2%3A29890%0A
+JavaScript error: https://static.adsafeprotected.com/main.17.4.163.js, line 111: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.0/angular.min.js, line 7: Error: [$injector:modulerr] http://errors.angularjs.org/1.7.0/$injector/modulerr?p0=brandApp&p1=%5B%24injector%3Amodulerr%5D%20http%3A%2F%2Ferrors.angularjs.org%2F1.7.0%2F%24injector%2Fmodulerr%3Fp0%3DngSanitize%26p1%3D%2524SanitizeProvider%252FgetInertBodyElement%253C%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.7.0%252Fangular-sanitize.js%253A436%253A5%250A%2524SanitizeProvider%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.7.0%252Fangular-sanitize.js%253A434%253A76%250Ainstantiate%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A45%253A104%250Ac%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A42%253A17%250Ad%252F%253C%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A41%253A468%250Ad%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A42%253A399%250Ag%252F%253C%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A43%253A1%250Aq%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A7%253A486%250Ag%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A42%253A308%250Ag%252F%253C%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A42%253A492%250Aq%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A7%253A486%250Ag%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A42%253A308%250Afb%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A46%253A400%250Ac%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A22%253A57%250AVc%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A22%253A370%250Axe%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A21%253A45%250A%2540https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fangular.js%252F1.7.0%252Fangular.min.js%253A339%253A241%250Ai%2540https%253A%252F%252Fcode.jquery.com%252Fjquery-2.2.4.min.js%253A2%253A27146%250AfireWith%2540https%253A%252F%252Fcode.jquery.com%252Fjquery-2.2.4.min.js%253A2%253A27914%250Aready%2540https%253A%252F%252Fcode.jquery.com%252Fjquery-2.2.4.min.js%253A2%253A29705%250AJ%2540https%253A%252F%252Fcode.jquery.com%252Fjquery-2.2.4.min.js%253A2%253A29890%250A%0AL%2F%3C%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A7%3A76%0Ag%2F%3C%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A43%3A223%0Aq%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A7%3A486%0Ag%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A42%3A308%0Ag%2F%3C%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A42%3A492%0Aq%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A7%3A486%0Ag%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A42%3A308%0Afb%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A46%3A400%0Ac%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A22%3A57%0AVc%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A22%3A370%0Axe%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A21%3A45%0A%40https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fangular.js%2F1.7.0%2Fangular.min.js%3A339%3A241%0Ai%40https%3A%2F%2Fcode.jquery.com%2Fjquery-2.2.4.min.js%3A2%3A27146%0AfireWith%40https%3A%2F%2Fcode.jquery.com%2Fjquery-2.2.4.min.js%3A2%3A27914%0Aready%40https%3A%2F%2Fcode.jquery.com%2Fjquery-2.2.4.min.js%3A2%3A29705%0AJ%40https%3A%2F%2Fcode.jquery.com%2Fjquery-2.2.4.min.js%3A2%3A29890%0A
+JavaScript error: https://static.adsafeprotected.com/main.17.4.163.js, line 111: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/activists-fight-merger-of-two-companies-accused-of-preying-on-students, line 3: Error: Invalid resource
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60123845/20180831090039720/template_728x90.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=76GZYh0Pbu&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/here-s-what-the-blizzard-is-shutting-down, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/in-shift-whole-foods-to-compete-with-price-cuts-loyalty-app, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/u-s-economy-after-recovery-needs-rest-of-world-to-grow-too, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://a.teads.tv/page/63027/tag, line 6: TypeError: frameElement is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-29/businessweek-s-american-economy-cover-how-we-made-it, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/northeastern-blizzard-elicits-time-tested-conservative-responses-on-climate-change, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/video-this-is-the-future-of-drones, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/vcs-are-getting-paid-a-ton-and-theyre-still-not-happy, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/obamacare-the-gops-latest-attack-adds-53-billion-to-deficit, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/oil-below-50-is-still-good-news, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/i-put-on-the-new-oculus-rift-headset-this-is-what-i-saw, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2018-12-19/fed-raises-rates-while-trimming-forecast-for-2019-hikes-to-two, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2018-12-19/fed-raises-rates-while-trimming-forecast-for-2019-hikes-to-two, line 1: ReferenceError: _cc12098 is not defined
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/does-anyone-really-want-a-smart-watch, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/does-anyone-really-want-a-smart-watch, line 1: NS_ERROR_FAILURE: 
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/does-anyone-really-want-a-smart-watch, line 3: Error: Invalid resource
+[Child 82432, MediaPlayback #1] WARNING: 1c40085ad00 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 82432, MediaPlayback #1] WARNING: Decoder=1c3e2751800 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 82432, MediaPlayback #1] WARNING: Decoder=1c3e2751800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 82432, MediaPlayback #4] WARNING: 1c40186a340 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 82432, MediaPlayback #2] WARNING: Decoder=1c3e2ba5800 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 82432, MediaPlayback #2] WARNING: Decoder=1c3e2ba5800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 82432, MediaPlayback #4] WARNING: 1c401869700 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 82432, MediaPlayback #4] WARNING: Decoder=1c401849400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/paris-newspaper-attack-wasnt-stopped-by-antiterror-arrests, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/oil-falls-below-50-goldmans-guru-says-the-crash-is-right-on-time, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-07/the-gmat-math-rule-you-need-to-know, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-08/texas-abortion-clinics-dwindle-activists-mobilize, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/samsung-and-yves-bhar-have-made-an-82inch-tv-thats-not-hideous, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/samsung-and-yves-bhar-have-made-an-82inch-tv-thats-not-hideous, line 1: NS_ERROR_FAILURE: 
+[Child 82432, MediaPlayback #1] WARNING: 1c3b6585880 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 82432, MediaPlayback #1] WARNING: Decoder=1c389696000 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 82432, MediaPlayback #1] WARNING: Decoder=1c389696000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 82432, MediaPlayback #2] WARNING: 1c3d3fb5040 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 82432, MediaPlayback #1] WARNING: Decoder=1c38d538400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 82432, MediaPlayback #1] WARNING: Decoder=1c38d538400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 82432, MediaPlayback #3] WARNING: 1c3de46c400 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 82432, MediaPlayback #3] WARNING: Decoder=1c392923800 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-06/starbucks-serves-up-flat-whites-tries-to-prove-it-can-still-be-different, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+[Child 95776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 95776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 82432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 82432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 97268, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 96456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 96456, Chrome1545281805211	Marionette	INFO	Stopped listening on port 53771
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545282001519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.ekE5Zh24AE76"
+*** You are running in headless mode.
+1545282003804	Marionette	INFO	Listening on port 55789
+1545282003823	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://client.perimeterx.net/PXSNy1D9MW/main.min.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://client.perimeterx.net/PXSNy1D9MW/main.min.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://client.perimeterx.net/PXSNy1D9MW/main.min.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://client.perimeterx.net/PXSNy1D9MW/main.min.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.bloomberg.com/8FCGYgk4/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.bloomberg.com/8FCGYgk4/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.bloomberg.com/8FCGYgk4/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.bloomberg.com/8FCGYgk4/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/here-s-what-you-need-to-know-about-the-financial-aid-program-obama-quietly-killed, line 3: Error: Invalid resource
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/inside-the-massive-project-to-uncover-the-holocaust-s-nameless-victims, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/why-china-wants-to-rain-on-obama-s-india-parade, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/u-s-embassy-in-yemen-closed-to-public-due-to-security-concerns, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/more-sorority-parties-could-mean-less-campus-rape, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/shovel-your-sidewalk-or-else, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/investing-in-russia-so-crazy-it-just-might-work, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/marsala-wine-is-coming-back-here-s-where-to-get-the-best-of-it, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/there-s-more-in-flight-wi-fi-than-ever, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/there-s-more-in-flight-wi-fi-than-ever, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/there-s-more-in-flight-wi-fi-than-ever, line 1: ReferenceError: _cc12098 is not defined
+JavaScript error: https://www.bloomberg.com/8FCGYgk4/init.js, line 4: NS_ERROR_FAILURE: 
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/decline-of-arranged-marriages-helps-the-fight-against-poverty, line 3: Error: Invalid resource
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/the-east-coast-becomes-a-no-fly-zone, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/tsa-whistle-blower-s-supreme-court-win-bittersweet-after-nine-year-exile, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/tsa-whistle-blower-s-supreme-court-win-bittersweet-after-nine-year-exile, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/tsa-whistle-blower-s-supreme-court-win-bittersweet-after-nine-year-exile, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/8FCGYgk4/init.js, line 4: NS_ERROR_FAILURE: 
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/science-fiction-recommendations-for-a-snow-day, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/the-end-of-piperlime-gap-wants-only-extra-large-brands, line 3: Error: Invalid resource
+JavaScript error: https://trackv.esearchvision.com/50153/tagv_50153_2.js, line 1: NS_ERROR_FAILURE: 
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-27/six-musicians-who-got-busted-for-plagiarizing, line 3: Error: Invalid resource
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/how-obama-s-3-trillion-health-care-overhaul-would-work, line 3: Error: Invalid resource
+JavaScript error: https://assets.bwbx.io/s3/javelin/public/javelin/js/components/blens/blens-9132b461ce.js, line 1: TypeError: t is null
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60122251/20180831090046504/template_300x600.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=hVKiqUqM0v&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/how-obama-s-3-trillion-health-care-overhaul-would-work, line 1: NS_ERROR_FAILURE: 
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[Child 92444, MediaPlayback #5] WARNING: 2d8cd8ecc40 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #5] WARNING: Decoder=2d8cf291800 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 92444, MediaPlayback #5] WARNING: Decoder=2d8cf291800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 92444, MediaPlayback #5] WARNING: 2d8cf522940 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #5] WARNING: Decoder=2d8cf29a400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 92444, MediaPlayback #5] WARNING: Decoder=2d8cf29a400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 92444, MediaPlayback #5] WARNING: 2d8cf6cd280 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #5] WARNING: Decoder=2d8cf0fd800 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://static.adsafeprotected.com/main.17.4.163.js, line 111: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60124625/20180831090942992/template_300x250.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=qJC2ikh3Js&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60122251/20180831090046504/template_300x600.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=xK7F4EiH5C&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60124625/20180831090942992/template_300x250.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=8DR6jQiZsq&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://aax-fe-sin.amazon-adsystem.com/e/dtb/admi?b=Ij11vLsNCO_d_ctJSsDDIt8AAAFnyjb0sAUAAA6MAZmPyRw&rnd=7502442824101545289138962&pp=1dosn40&p=1cnc5xc&crid=121247636, line 1: NS_ERROR_FAILURE: 
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://static.adsafeprotected.com/main.17.4.163.js, line 111: NS_ERROR_NOT_INITIALIZED: 
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60122251/20180831090046504/template_300x600.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=UDXJPgeowH&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/how-obama-s-3-trillion-health-care-overhaul-would-work, line 1: NS_ERROR_FAILURE: 
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[Child 92444, MediaPlayback #10] WARNING: 2d8d7dd1700 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #10] WARNING: Decoder=2d8f099a800 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 92444, MediaPlayback #10] WARNING: Decoder=2d8f099a800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 92444, MediaPlayback #11] WARNING: 2d8d7f52100 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #11] WARNING: Decoder=2d8f1497400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 92444, MediaPlayback #11] WARNING: Decoder=2d8f1497400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 92444, MediaPlayback #12] WARNING: 2d8d7fb3040 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #10] WARNING: Decoder=2d8f1df0400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://static.adsafeprotected.com/main.17.4.163.js, line 111: NS_ERROR_NOT_INITIALIZED: 
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/how-obama-s-3-trillion-health-care-overhaul-would-work, line 1: NS_ERROR_FAILURE: 
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[Child 92444, MediaPlayback #17] WARNING: 2d8d826b040 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #17] WARNING: Decoder=2d8f1492c00 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 92444, MediaPlayback #17] WARNING: Decoder=2d8f1492c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 92444, MediaPlayback #16] WARNING: 2d8d826bac0 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #16] WARNING: Decoder=2d8f149a000 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 92444, MediaPlayback #16] WARNING: Decoder=2d8f149a000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 92444, MediaPlayback #16] WARNING: 2d8d826b7c0 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #18] WARNING: Decoder=2d8f1de8400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://static.adsafeprotected.com/main.17.4.163.js, line 111: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60124625/20180831090942992/template_300x250.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=CYmuylcshJ&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/how-obama-s-3-trillion-health-care-overhaul-would-work, line 3: Error: Invalid resource
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://www.bloomberg.com/news/articles/2015-01-26/how-obama-s-3-trillion-health-care-overhaul-would-work, line 1: NS_ERROR_FAILURE: 
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[Child 92444, MediaPlayback #27] WARNING: 2d8e8917e80 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #27] WARNING: Decoder=2d8ea1ea400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 92444, MediaPlayback #27] WARNING: Decoder=2d8ea1ea400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 92444, MediaPlayback #26] WARNING: 2d8e92caf40 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #26] WARNING: Decoder=2d8f149a400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 92444, MediaPlayback #26] WARNING: Decoder=2d8f149a400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+[Child 92444, MediaPlayback #25] WARNING: 2d8e9fea580 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 92444, MediaPlayback #26] WARNING: Decoder=2d8e19ad000 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://static.adsafeprotected.com/main.17.4.163.js, line 111: NS_ERROR_NOT_INITIALIZED: 
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://aax-fe-sin.amazon-adsystem.com/e/dtb/admi?b=IlluFgY2i65_rH20WxszePwAAAFnyorh5gUAAA6MAfpPHLM&rnd=4657190996151545294639129&pp=1m0gglc&p=1cnc5xc&crid=121247639, line 1: NS_ERROR_FAILURE: 
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts/UserProviders_1_17_0_0/SizmekDI.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://static.adsafeprotected.com/main.17.4.163.js, line 111: NS_ERROR_NOT_INITIALIZED: 
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60122251/20180831090046504/template_300x600.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=KrPY5rx2e7&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60124625/20180831090942992/template_300x250.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=gjJjLd8Wyx&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60122251/20180831090046504/template_300x600.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=aVAJUe9vKn&t=1, line 169: ReferenceError: fnStartAnimation is not defined
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 95172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+c/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

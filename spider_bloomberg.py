@@ -143,10 +143,10 @@ if __name__=='__main__':
     Login(driver)
     conn, cur = DbInitialize(db=db, user='duxin', passwd="", host="localhost")
     # prepare info_list
-    months = [(year,month) for year in range(1997,2019) for month in range(1,5)][2:]
+    months = [(year,month) for year in range(2010,2019) for month in range(1,13)]
     info_list = []
     for year,month in months:
-        news_sm = json.loads(open('sitemap_economist/sitemap-{}-Q{}.json'.format(year,month), 'rt').read())
+        news_sm = json.loads(open('sitemap_bloomberg/feeds_bbiz_sitemap_{}_{}.json'.format(year,month), 'rt').read())
         info_list.append(news_sm)
     info_list = [info for news_sm in info_list for info in news_sm]
     # crawling
