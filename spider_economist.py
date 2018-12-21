@@ -68,7 +68,8 @@ def Login(driver):
     driver.find_element_by_id("submit-login").click()
 
     try:
-        WebDriverWait(driver, 10).until(EC.text_to_be_present_in_element((By.TAG_NAME, "html"), "You are now logged ine"))
+        WebDriverWait(driver, 10).until(EC.text_to_be_present_in_element((By.TAG_NAME, "html"), "You are now logged in"))
+        print("Login succeeded")
         logger.info("{} # Login succeeded".format(time.ctime()))
     except:
         logger.error("{} # Login failed".format(time.ctime()))
@@ -114,7 +115,7 @@ def CrawlByInfo(info, save_pagesource=True):
     flag = 0
     if "You’ve seen the news, now discover the story in text" not in text:
         flag += 1
-        logger.eror("{} # 'You've seen the news' not found".format(time.ctime()))
+        logger.error("{} # 'You've seen the news' not found".format(time.ctime()))
         entry['error_type'] = "'You've seen the news' not found!"
         cur.execute("insert into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
     if "Welcome" not in text:
