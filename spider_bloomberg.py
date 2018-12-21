@@ -104,14 +104,15 @@ def CrawlByInfo(info, save_pagesource=True):
             'priority':priority,
             'pagesource':pagesource,
             'text':text}
-    qmarks = ', '.join(['%s'] * len(entry))
 
     if "Welcome, duxin" not in text:
         entry['error_type'] = "'Welcome, duxin' not found!"
         logger.error("{} # 'Welcome, duxin' not found".format(time.ctime()))
+        qmarks = ', '.join(['%s'] * len(entry))
         cur.execute("insert into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
         raise ValueError("'Welcome, duxin' not found!")
     
+    qmarks = ', '.join(['%s'] * len(entry))
     cur.execute("insert into {} ({}) values({})".format(table, ','.join(entry.keys()), qmarks), list(entry.values()))
     cur.execute("update news_bloomberg_index set status=1 where id=%d"%(id))
     return len(text), len(pagesource)
@@ -169,7 +170,7 @@ if __name__=='__main__':
             len_text, len_source = CrawlByInfo(info, True)
             if 0 == (i+1) % 10:
                 conn.commit()
-            logger.info("{} # Inserted news. ID: {:>6d}. SOURCE/TEXT LENGTH: {:>7d}/{:>6d}".format(time.ctime(), cur.lastrowid, len_source, len_text))
+            logger.info("{} # Inserted news. ID: {:>6d}. SOURCE/TEXT LENGTH: {:>7d}/{:>6d}".format(time.ctime(), id, len_source, len_text))
             if 0 == (i+1) % 100:
                 logger.info("{} # Current progress: {}, {:4}/{:4}".format(time.ctime(), info['lastmod'], i+1, len(info_list)))
             if 0 == (i+1) % 300:

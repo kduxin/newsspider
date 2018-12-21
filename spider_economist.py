@@ -88,6 +88,12 @@ def DbInitialize(db, user, passwd, host="localhost", port=3306):
 def GetTaskFromDb():
     cur.execute("select ")
 
+def None2Null(s):
+    if s is None:
+        return "null"
+    else:
+        return s
+
 def CrawlByInfo(info, save_pagesource=True):
     id,loc,lastmod,changefreq,priority = info['id'],info['loc'],info['lastmod'],info['changefreq'],info['priority']
     # resp = sess.get(loc, headers=headers, verify=True)
@@ -104,28 +110,24 @@ def CrawlByInfo(info, save_pagesource=True):
     # insert into database
     entry = {'id':id,
             'loc':loc,
-            'publishat':re.findall(r'\d{4}-\d{2}-\d{2}', loc)[0],
-            'lastmod':lastmod,
-            'changefreq':changefreq,
-            'priority':priority,
+            'publishat':re.findall(r'\d{4}[/-]\d{2}[/-]\d{2}', loc)[0],
+            'lastmod':None2Null(lastmod),
+            'changefreq':None2Null(changefreq),
+            'priority':None2Null(priority),
             'pagesource':pagesource,
             'text':text}
-    qmarks = ', '.join(['%s'] * len(entry))
 
     flag = 0
-    if "You’ve seen the news, now discover the story in text" not in text:
-        flag += 1
-        logger.error("{} # 'You've seen the news' not found".format(time.ctime()))
-        entry['error_type'] = "'You've seen the news' not found!"
-        cur.execute("insert into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
     if "Welcome" not in text:
         flag += 1
         logger.error("{} # 'Welcome' not found".format(time.ctime()))
         entry['error_type'] = "'Welcome' not found!"
+        qmarks = ', '.join(['%s'] * len(entry))
         cur.execute("insert into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
     if flag > 0:
         raise ValueError("Fingerprints not found!")
     
+    qmarks = ', '.join(['%s'] * len(entry))
     cur.execute("insert into {} ({}) values({})".format(table, ','.join(entry.keys()), qmarks), list(entry.values()))
     cur.execute("update news_bloomberg_index set status=1 where id=%d"%(id))
     return len(text), len(pagesource)
@@ -154,7 +156,7 @@ if __name__=='__main__':
             len_text, len_source = CrawlByInfo(info, True)
             if 0 == (i+1) % 10:
                 conn.commit()
-            logger.info("{} # Inserted news. ID: {:>6d}. SOURCE/TEXT LENGTH: {:>7d}/{:>6d}".format(time.ctime(), cur.lastrowid, len_source, len_text))
+            logger.info("{} # Inserted news. ID: {:>6d}. SOURCE/TEXT LENGTH: {:>7d}/{:>6d}".format(time.ctime(), id, len_source, len_text))
             if 0 == (i+1) % 100:
                 logger.info("{} # Current progress: {}, {:4}/{:4}".format(time.ctime(), info['lastmod'], i+1, len(info_list)))
             if 0 == (i+1) % 300:
