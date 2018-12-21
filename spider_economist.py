@@ -53,21 +53,26 @@ def SeleniumInitialize(set_headless=False, allow_image=False, allow_css=True, al
 
 # login
 def Login(driver):
-    driver.get('https://login.bloomberg.com/')
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "email"))).send_keys('duxin@cl.rcast.u-tokyo.ac.jp')
-    WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, "button-label")))
+    driver.get('https://www.economist.com')
+    WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, "navigation__user-menu-link-caption")))
     time.sleep(3)
-    driver.find_element_by_class_name('button-label').click()
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "password"))).send_keys('a19960407')
-    WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, "button-label")))
+    driver.find_element_by_class_name('navigation__user-menu-link-caption').click()
+    WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, "navigation__user-menu-linklist-item")))
     time.sleep(3)
-    driver.find_element_by_class_name('button-label').click()
-    time.sleep(3)
-    if "Sign Out" in driver.find_element_by_tag_name('html').text:
+    driver.find_element_by_class_name('navigation__user-menu-linklist-item').click()
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "input")))
+    inputs = driver.find_elements_by_tag_name('input')
+    inputs[0].send_keys("duxin@cl.rcast.u-tokyo.ac.jp")
+    inputs[1].send_keys("duxinKumiko")
+    WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "submit-login")))
+    driver.find_element_by_id("submit-login").click()
+
+    try:
+        WebDriverWait(driver, 10).until(EC.text_to_be_present_in_element((By.TAG_NAME, "html"), "You are now logged ine"))
         logger.info("{} # Login succeeded".format(time.ctime()))
-    else:
+    except:
         logger.error("{} # Login failed".format(time.ctime()))
-        raise ValueError("Login Failed!")
+        raise ValueError("Login failed!")
 
 def DbInitialize(db, user, passwd, host="localhost", port=3306):
     # db initialization
@@ -79,89 +84,90 @@ def DbInitialize(db, user, passwd, host="localhost", port=3306):
     cur = conn.cursor()
     return conn, cur
 
-def CrawlByInfo(info, table, save_pagesource=True):
-    loc, lastmod, changefreq, priority = info['loc'], info['lastmod'], info['changefreq'], info['priority']
+def GetTaskFromDb():
+    cur.execute("select ")
+
+def CrawlByInfo(info, save_pagesource=True):
+    id,loc,lastmod,changefreq,priority = info['id'],info['loc'],info['lastmod'],info['changefreq'],info['priority']
     # resp = sess.get(loc, headers=headers, verify=True)
     driver.get(loc)
     # if 200 != resp.status_code:
     #     logger.error("{} # Response error. CODE: {:>4}. MESSAGE: {}".format(time.ctime(), resp.status_code, resp.reason))
     #     continue
     text = driver.find_element_by_tag_name('html').text
-    if "Welcome, duxin" not in text:
-        logger.error("{} # 'Welcome, duxin' not found".format(time.ctime()))
-        raise ValueError("'Welcome, duxin' not found!")
     if True==save_pagesource:
         pagesource = driver.page_source
     else:
         pagesource = None
     
     # insert into database
-    entry = {'loc':loc,
+    entry = {'id':id,
+            'loc':loc,
             'publishat':re.findall(r'\d{4}-\d{2}-\d{2}', loc)[0],
-            'lastmod':lastmod.replace('T',' ').replace('Z',''),
+            'lastmod':lastmod,
             'changefreq':changefreq,
-            'priority':str(priority),
+            'priority':priority,
             'pagesource':pagesource,
             'text':text}
     qmarks = ', '.join(['%s'] * len(entry))
+
+    flag = 0
+    if "You’ve seen the news, now discover the story in text" not in text:
+        flag += 1
+        logger.eror("{} # 'You've seen the news' not found".format(time.ctime()))
+        entry['error_type'] = "'You've seen the news' not found!"
+        cur.execute("insert into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
+    if "Welcome" not in text:
+        flag += 1
+        logger.error("{} # 'Welcome' not found".format(time.ctime()))
+        entry['error_type'] = "'Welcome' not found!"
+        cur.execute("insert into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
+    if flag > 0:
+        raise ValueError("Fingerprints not found!")
+    
     cur.execute("insert into {} ({}) values({})".format(table, ','.join(entry.keys()), qmarks), list(entry.values()))
+    cur.execute("update news_bloomberg_index set status=1 where id=%d"%(id))
     return len(text), len(pagesource)
-
-def CrawlByMonths(months, table, save_pagesource):
-    for year,month in months:
-        news_sm = json.loads(open('sitemap_bloomberg/feeds_bbiz_sitemap_{}_{}.json'.format(year,month), 'rt').read())
-
-        for i,info in enumerate(news_sm):
-            len_text, len_source = CrawlByInfo(info, table, save_pagesource)
-
-            if 0 == (i+1) % 1:
-                conn.commit()
-            logger.info("{} # Inserted news. ID: {:>6d}. LENGTH: {:>6d}".format(time.ctime(), cur.lastrowid, len_text))
-            if 0 == (i+1) % 10:
-                logger.info("{} # Current progress: {}-{}, {:4}/{:4}".format(time.ctime(), year, month, i+1, len(news_sm)))
-            
-            time.sleep(random.random()*5)
-
-
-
-if __name__=='__main1__':
-    db, table = 'newsspider', 'news_bloomberg_copy'
-    logger = LoggerInitialize('news_bloomberg.log')
-    driver = SeleniumInitialize(set_headless=True)
-    Login(driver)
-    conn, cur = DbInitialize(db=db, user='root', passwd="123456", host="localhost")
-    months = [(year,month) for year in range(2010,2019) for month in range(1,13)]
-    try:
-        CrawlByMonths(months, table, True)
-    except Exception as e:
-        logger.exception("Got unexpected error")
-
+    
 if __name__=='__main__':
-    db, table = 'newsspider', 'news_bloomberg'
-    logger = LoggerInitialize('news_bloomberg.log')
+    db, table, error_table = 'newsspider', 'news_economist', 'news_economist_error'
+    logger = LoggerInitialize('news_economist.log')
     driver = SeleniumInitialize(set_headless=True, binary_path="/home/duxin/bin/firefox/firefox")
     Login(driver)
     conn, cur = DbInitialize(db=db, user='duxin', passwd="", host="localhost")
     # prepare info_list
-    months = [(year,month) for year in range(1997,2019) for month in range(1,5)][2:]
-    info_list = []
-    for year,month in months:
-        news_sm = json.loads(open('sitemap_economist/sitemap-{}-Q{}.json'.format(year,month), 'rt').read())
-        info_list.append(news_sm)
-    info_list = [info for news_sm in info_list for info in news_sm]
+    cmd = "select id,loc,lastmod,changefreq,priority from news_economist_index " \
+        "where status=0 and id not in (select * from (select id from news_bloomberg as tb1) as tb2) " \
+        "and lastmod between {} and {}".format("'2010-01-01'", "'2020-12-31'")
+    cur.execute(cmd)
+    info_list = cur.fetchall()
     # crawling
-    for i,info in enumerate(info_list):
+    flag = 0
+    for i,(id,loc,lastmod,changefreq,priority) in enumerate(info_list):
         try:
-            len_text, len_source = CrawlByInfo(info, table, True)
+            info = {'id':id,
+                    'loc':loc,
+                    'lastmod':lastmod,
+                    'changefreq':changefreq,
+                    'priority':priority}
+            len_text, len_source = CrawlByInfo(info, True)
             if 0 == (i+1) % 10:
                 conn.commit()
             logger.info("{} # Inserted news. ID: {:>6d}. SOURCE/TEXT LENGTH: {:>7d}/{:>6d}".format(time.ctime(), cur.lastrowid, len_source, len_text))
             if 0 == (i+1) % 100:
                 logger.info("{} # Current progress: {}, {:4}/{:4}".format(time.ctime(), info['lastmod'], i+1, len(info_list)))
+            if 0 == (i+1) % 300:
+                logger.info("{} # Sleep for a while... (3min)".format(time.ctime()))
+                time.sleep(180)
             
             time.sleep(random.random()*5)
+            flag = 0
         except Exception as e:
-            logger.exception("Got unexpected error")
+            logger.exception("{} # Got unexpected error. Recent fails: {}".format(time.ctime(), flag+1))
+            flag += 1
+            if flag > 10:
+                time.sleep(600)
+
         
 
 
