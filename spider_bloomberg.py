@@ -65,7 +65,7 @@ def Login(driver):
     time.sleep(3)
     if "Sign Out" in driver.find_element_by_tag_name('html').text:
         logger.info("{} # Login succeeded".format(time.ctime()))
-    else:
+    else: 
         logger.error("{} # Login failed".format(time.ctime()))
         raise ValueError("Login Failed!")
 
@@ -110,6 +110,7 @@ def CrawlByInfo(info, save_pagesource=True):
         logger.error("{} # 'Welcome, duxin' not found".format(time.ctime()))
         qmarks = ', '.join(['%s'] * len(entry))
         cur.execute("insert into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
+        conn.commit()
         raise ValueError("'Welcome, duxin' not found!")
     
     qmarks = ', '.join(['%s'] * len(entry))
@@ -132,7 +133,16 @@ def CrawlByMonths(months, save_pagesource):
             
             time.sleep(random.random()*5)
 
-
+def RebootDriver(driver):
+    try:
+        driver.close()
+        logger.info("{} # Succeeded to close current webdriver".format(time.ctime()))
+    except Exception as e:
+        logger.exception("{} # Failed to close current webdriver".format(time.ctime()))
+    driver = SeleniumInitialize(set_headless=True, binary_path="/home/duxin/bin/firefox/firefox")
+    logger.info("#"*60)
+    logger.info("{} # New webdriver initialized".format(time.ctime()))
+    return driver
 
 if __name__=='__main1__':
     db, table = 'newsspider', 'news_bloomberg_copy'
@@ -182,8 +192,11 @@ if __name__=='__main__':
         except Exception as e:
             logger.exception("{} # Got unexpected error. Recent fails: {}".format(time.ctime(), flag+1))
             flag += 1
-            if flag > 10:
-                time.sleep(600)
+            time.sleep(20)
+            if flag > 5:
+                time.sleep(300)
+                driver = RebootDriver(driver)
+                Login(driver)
 
         
 

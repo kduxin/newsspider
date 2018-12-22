@@ -124,6 +124,7 @@ def CrawlByInfo(info, save_pagesource=True):
         entry['error_type'] = "'Welcome' not found!"
         qmarks = ', '.join(['%s'] * len(entry))
         cur.execute("insert into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
+        conn.commit()
     if flag > 0:
         raise ValueError("Fingerprints not found!")
     
@@ -131,6 +132,19 @@ def CrawlByInfo(info, save_pagesource=True):
     cur.execute("insert into {} ({}) values({})".format(table, ','.join(entry.keys()), qmarks), list(entry.values()))
     cur.execute("update news_bloomberg_index set status=1 where id=%d"%(id))
     return len(text), len(pagesource)
+
+
+def RebootDriver(driver):
+    try:
+        driver.close()
+        logger.info("{} # Succeeded to close current webdriver".format(time.ctime()))
+    except Exception as e:
+        logger.exception("{} # Failed to close current webdriver".format(time.ctime()))
+    driver = SeleniumInitialize(set_headless=True, binary_path="/home/duxin/bin/firefox/firefox")
+    logger.info("#"*60)
+    logger.info("{} # New webdriver initialized".format(time.ctime()))
+    return driver
+
     
 if __name__=='__main__':
     db, table, error_table = 'newsspider', 'news_economist', 'news_economist_error'
@@ -168,8 +182,11 @@ if __name__=='__main__':
         except Exception as e:
             logger.exception("{} # Got unexpected error. Recent fails: {}".format(time.ctime(), flag+1))
             flag += 1
-            if flag > 10:
-                time.sleep(600)
+            time.sleep(20)
+            if flag > 5:
+                time.sleep(300)
+                driver = RebootDriver(driver)
+                Login(driver)
 
         
 
