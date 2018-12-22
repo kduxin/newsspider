@@ -958,3 +958,260 @@ c/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Parent 99732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545405096821	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.WaVnpjbq5VFp"
+1545405099761	Marionette	INFO	Listening on port 63571
+1545405099822	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 55268, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 54820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 54820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chro1545405115013	Marionette	INFO	Stopped listening on port 63571
+[GPU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545405260526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.2HsYIr4au4bh"
+1545405262004	Marionette	INFO	Listening on port 63656
+1545405262151	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 56316, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 56440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 53612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 53612, Chrome_ChildThread] WARNING: pipe error: 109: fi[Parent 56316, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545405299169	Marionette	INFO	Stopped listening on port 63656
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545405303576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.jFdblAkSUxVL"
+1545405305290	Marionette	INFO	Listening on port 63693
+1545405305697	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 58040, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: https://www.economist.com/assets/js/main.01d8d2cd1b7949552e20.chunk.js, line 1: TypeError: n.contentDocument is null
+[Child 51056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 51056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch1545406006375	Marionette	INFO	Stopped listening on port 63693
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 54524, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 54524, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.ss4U6czhA0Hi"
+*** You are running in headless mode.
+1545405600043	Marionette	INFO	Listening on port 64253
+1545405600205	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 57508, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545458405607	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.3KaivGDUk71a"
+1545458408420	Marionette	INFO	Listening on port 51322
+1545458408496	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 59840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 59840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 67968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 67968, Chrome_ChildThr[Parent 59840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 68112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 68112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 59840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 67848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 67848, Chrome_Child1545458858144	Marionette	INFO	Stopped listening on port 51322
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1545458858523	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Duxin\\AppData\\Local\\Temp\\rust_mozprofile.DfpqdyRBa5C9"
+1545458860349	Marionette	INFO	Listening on port 52018
+1545458860645	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 70368, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 57828, MediaPlayback #1] WARNING: 210e5a4a640 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 57828, MediaPlayback #1] WARNING: Decoder=210ed33fc00 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Parent 70368, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 70368, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 70368, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 70368, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://c.evidon.com/sitenotice/evidon-cmp.js, line 3: TypeError: window.__cmp is undefined
+[Parent 70368, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://www.economist.com/sites/default/files/js/js_61a0f086ef043825120b223d22e78a90.js, line 19: unreachable code after return statement
+JavaScript error: https://consent-st.truste.com/get?name=notice.js&domain=economist.com&c=teconsent, line 15: TypeError: truste.eu.bindMap is undefined
+JavaScript error: https://consent-st.truste.com/get?name=notice.js&domain=economist.com&c=teconsent, line 15: TypeError: truste.eu.bindMap is undefined
+JavaScript error: https://www.economist.com/sites/default/files/js/js_61a0f086ef043825120b223d22e78a90.js, line 19150: TypeError: google.search.CustomSearchControl.attachAutoCompletionWithOptions is not a function
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.economist.com/sites/default/files/js/js_b5730ec21756ffe067472c5ea8e258bf.js, line 19: unreachable code after return statement
+JavaScript error: https://consent-st.truste.com/get?name=notice.js&domain=economist.com&c=teconsent, line 15: TypeError: truste.eu.bindMap is undefined
+JavaScript error: https://www.economist.com/sites/default/files/js/js_b5730ec21756ffe067472c5ea8e258bf.js, line 19011: TypeError: google.search.CustomSearchControl.attachAutoCompletionWithOptions is not a function
+JavaScript error: https://pixel.adsafeprotected.com/rjss/st/186231/27534704/skeleton.js, line 868: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://ss1console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: https://cdn.doubleverify.com/dv-measurements249.js, line 52: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.doubleverify.com/dv-measurements249.js, line 52: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.doubleverify.com/dv-measurements249.js, line 52: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.doubleverify.com/dv-measurements249.js, line 52: NS_ERROR_NOT_INITIALIZED: 
+[Parent 70960, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 67732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 67732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, li[ne 346Parent 70
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+960, Gecko_IOThread] WARNING: pipe error: 109:
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545460181445	Marionette	INFO	Stopped listening on port 55909
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ipc_channel_win.cc, line 346
+[Child 22980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22980, Chrome_ChilJavaScript warning: https://www.economist.com/sites/default/files/js/js_013c9242c9442794e76b07136bdc240c.js, line 19: unreachable code after return statement
+JavaScript error: https://consent-st.truste.com/get?name=notice.js&domain=economist.com&c=teconsent, line 15: TypeError: truste.eu.bindMap is undefined
+JavaScript error: https://www.economist.com/sites/default/files/js/js_013c9242c9442794e76b07136bdc240c.js, line 19385: TypeError: google.search.CustomSearchControl.attachAutoCompletionWithOptions is not a function
+JavaScript warning: https://www.economist.com/sites/default/files/js/js_61a0f086ef043825120b223d22e78a90.js, line 19: unreachable code after return statement
+JavaScript error: https://consent-st.truste.com/get?name=notice.js&domain=economist.com&c=teconsent, line 15: TypeError: truste.eu.bindMap is undefined
+JavaScript error: https://www.economist.com/sites/default/files/js/js_61a0f086ef043825120b223d22e78a90.js, line 19150: TypeError: google.search.CustomSearchControl.attachAutoCompletionWithOptions is not a function
+JavaScript error: https://www.economist.com/user/12688649/subscription, line 1: NS_ERROR_FAILURE: 
+[Child 65772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 65772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545460182489	Marionette	INFO	Stopped listening on port 52018
+
+###!!! [Child]JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-77249134-9, line 147: unreachable code after return statement
+[Parent 72008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 72008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 72008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 72008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 72008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 72008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-31/html/container.html, line 1: SecurityError: Permission denied to access property "truste" on cross-origin object
+JavaScript error: https://www.economist.com/leaders/1997/09/11/chinas-new-revolutionary, line 1: NS_ERROR_FAILURE: 
+JavaScript error: https://a.teads.tv/media/format/v3/teads-format.min.js, line 2: TypeError: n is undefined
+JavaScript error: https://cdn.doubleverify.com/dv-measurements249.js, line 54: TypeError: b is undefined
+JavaScript error: https://secure-ds.serving-sys.com/BurstingCachedScripts/Modules_1_55_0_0/AdChoice.js, line 1: TypeError: img is null
+JavaScript error: https://secure-ds.serving-sys.com/BurstingCachedScripts/Modules_1_55_0_0/AdChoice.js, line 1: TypeError: img is null
+JavaScript error: https://secure-ds.serving-sys.com/BurstingCachedScripts//Ad_2_146_3_0/ebHtml5Banner.js, line 276: NS_ERROR_FAILURE: 
+JavaScript error: https://www.economist.com/international/1997/09/11/freedoms-follies, line 1: NS_ERROR_FAILURE: 
+[Parent 72008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://www.economist.com/assets/js/main.01d8d2cd1b7949552e20.chunk.js, line 1: TypeError: n.contentDocument is null
+JavaScript error: https://www.economist.com/leaders/1997/09/04/algerias-ghastly-secret, line 1: NS_ERROR_FAILURE: 
+JavaScript error: https://www.economist.com/assets/js/main.01d8d2cd1b7949552e20.chunk.js, line 1: TypeError: n.contentDocument is null
+[Parent 72008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 72008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-31/html/container.html, line 1: SecurityError: Permission denied to access property "truste" on cross-origin object
+[Child 63564, MediaPlayback #3] WARNING: 1f198130400 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 63564, MediaPlayback #1] WARNING: Decoder=1f198470c00 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 63564, MediaPlayback #1] WARNING: 1f1982e7400 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 361
+[Child 63564, MediaPlayback #1] WARNING: Decoder=1f198470c00 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3734
+[Child 69892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 69892, Chrome_ChildThread] WARNING[Parent 72008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 63564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 63564, Chrome_ChildThread] WARNING: pipe er[Parent 72008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 74688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi1545460634344	Marionette	INFO	Stopped listening on port 60794
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

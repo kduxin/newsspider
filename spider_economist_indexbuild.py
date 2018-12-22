@@ -18,7 +18,7 @@ def DbInitialize(db, user, passwd, host="localhost", port=3306):
     cur = conn.cursor()
     return conn, cur
 
-conn, cur = DbInitialize(db='newsspider', user='duxin', passwd='')
+conn, cur = DbInitialize(db='newsspider', user='root', passwd='123456')
 
 quarters = [(year,quarter) for year in range(1997,2019) for quarter in range(1,5)][2:]
 info_list = []

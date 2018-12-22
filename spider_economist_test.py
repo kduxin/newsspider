@@ -140,7 +140,7 @@ def RebootDriver(driver):
         logger.info("{} # Succeeded to close current webdriver".format(time.ctime()))
     except Exception as e:
         logger.exception("{} # Failed to close current webdriver".format(time.ctime()))
-    driver = SeleniumInitialize(set_headless=True, binary_path="/home/duxin/bin/firefox/firefox")
+    driver = SeleniumInitialize(set_headless=False)
     logger.info("#"*60)
     logger.info("{} # New webdriver initialized".format(time.ctime()))
     return driver
@@ -149,9 +149,9 @@ def RebootDriver(driver):
 if __name__=='__main__':
     db, table, error_table, index_table = 'newsspider', 'news_economist', 'news_economist_error', 'news_economist_index'
     logger = LoggerInitialize('news_economist.log')
-    driver = SeleniumInitialize(set_headless=True, binary_path="/home/duxin/bin/firefox/firefox")
+    driver = SeleniumInitialize(set_headless=False)
     Login(driver)
-    conn, cur = DbInitialize(db=db, user='duxin', passwd="", host="localhost")
+    conn, cur = DbInitialize(db=db, user='root', passwd="123456", host="localhost")
     # prepare info_list
     cmd = "select id,loc,lastmod,changefreq,priority from {} " \
         "where status=0 and id not in (select * from (select id from news_bloomberg as tb1) as tb2) " \

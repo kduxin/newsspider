@@ -1,0 +1,171 @@
+Sat Dec 22 14:00:31 2018 # Login succeeded
+Sat Dec 22 14:04:30 2018 # Login succeeded
+Sat Dec 22 14:08:04 2018 # Login succeeded
+Sat Dec 22 14:08:13 2018 # Got unexpected error. Recent fails: 1
+Traceback (most recent call last):
+  File "spider_economist_test.py", line 170, in <module>
+    len_text, len_source = CrawlByInfo(info, True)
+  File "spider_economist_test.py", line 133, in CrawlByInfo
+    cur.execute("update news_bloomberg_index set status=1 where id=%d"%(id))
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'newsspider.news_bloomberg_index' doesn't exist")
+Sat Dec 22 14:08:38 2018 # Got unexpected error. Recent fails: 2
+Traceback (most recent call last):
+  File "spider_economist_test.py", line 170, in <module>
+    len_text, len_source = CrawlByInfo(info, True)
+  File "spider_economist_test.py", line 133, in CrawlByInfo
+    cur.execute("update news_bloomberg_index set status=1 where id=%d"%(id))
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'newsspider.news_bloomberg_index' doesn't exist")
+Sat Dec 22 14:09:05 2018 # Got unexpected error. Recent fails: 3
+Traceback (most recent call last):
+  File "spider_economist_test.py", line 170, in <module>
+    len_text, len_source = CrawlByInfo(info, True)
+  File "spider_economist_test.py", line 133, in CrawlByInfo
+    cur.execute("update news_bloomberg_index set status=1 where id=%d"%(id))
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'newsspider.news_bloomberg_index' doesn't exist")
+Sat Dec 22 14:09:31 2018 # Got unexpected error. Recent fails: 4
+Traceback (most recent call last):
+  File "spider_economist_test.py", line 170, in <module>
+    len_text, len_source = CrawlByInfo(info, True)
+  File "spider_economist_test.py", line 133, in CrawlByInfo
+    cur.execute("update news_bloomberg_index set status=1 where id=%d"%(id))
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'newsspider.news_bloomberg_index' doesn't exist")
+Sat Dec 22 14:09:59 2018 # Got unexpected error. Recent fails: 5
+Traceback (most recent call last):
+  File "spider_economist_test.py", line 170, in <module>
+    len_text, len_source = CrawlByInfo(info, True)
+  File "spider_economist_test.py", line 133, in CrawlByInfo
+    cur.execute("update %d set status=1 where id=%d"%(index_table, id))
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Tools\Anaconda3-py35\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'newsspider.news_bloomberg_index' doesn't exist")
+Sat Dec 22 14:10:51 2018 # Login succeeded
+Sat Dec 22 14:11:41 2018 # Got unexpected error. Recent fails: 1
+Traceback (most recent call last):
+  File "spider_economist_test.py", line 170, in <module>
+    len_text, len_source = CrawlByInfo(info, True)
+  File "spider_economist_test.py", line 133, in CrawlByInfo
+    cur.execute("update %d set status=1 where id=%d"%(index_table, id))
+TypeError: %d format: a number is required, not str
+Sat Dec 22 14:12:07 2018 # Got unexpected error. Recent fails: 2
+Traceback (most recent call last):
+  File "spider_economist_test.py", line 170, in <module>
+    len_text, len_source = CrawlByInfo(info, True)
+  File "spider_economist_test.py", line 133, in CrawlByInfo
+    cur.execute("update %d set status=1 where id=%d"%(index_table, id))
+TypeError: %d format: a number is required, not str
+Sat Dec 22 14:12:36 2018 # Got unexpected error. Recent fails: 3
+Traceback (most recent call last):
+  File "spider_economist_test.py", line 170, in <module>
+    len_text, len_source = CrawlByInfo(info, True)
+  File "spider_economist_test.py", line 133, in CrawlByInfo
+    cur.execute("update %d set status=1 where id=%d"%(index_table, id))
+TypeError: %d format: a number is required, not str
+Sat Dec 22 14:30:02 2018 # Login succeeded
+Sat Dec 22 14:30:11 2018 # Inserted news. ID:     17. SOURCE/TEXT LENGTH:  723769/  7907
+Sat Dec 22 14:30:17 2018 # Inserted news. ID:     19. SOURCE/TEXT LENGTH:  715704/  7119
+Sat Dec 22 14:30:25 2018 # Inserted news. ID:     30. SOURCE/TEXT LENGTH:  722534/  6626
+Sat Dec 22 14:30:35 2018 # Inserted news. ID:     38. SOURCE/TEXT LENGTH:  729606/ 10145
+Sat Dec 22 14:30:44 2018 # Inserted news. ID:     39. SOURCE/TEXT LENGTH:  707078/  4571
+Sat Dec 22 14:30:51 2018 # Inserted news. ID:     46. SOURCE/TEXT LENGTH:  710560/  3959
+Sat Dec 22 14:30:57 2018 # Inserted news. ID:     53. SOURCE/TEXT LENGTH:  712303/  6015
+Sat Dec 22 14:31:06 2018 # Inserted news. ID:     57. SOURCE/TEXT LENGTH:  714999/  6320
+Sat Dec 22 14:31:14 2018 # Inserted news. ID:     66. SOURCE/TEXT LENGTH:  705444/  5718
+Sat Dec 22 14:31:26 2018 # Inserted news. ID:     67. SOURCE/TEXT LENGTH:  708725/  4897
+Sat Dec 22 14:31:33 2018 # Inserted news. ID:     91. SOURCE/TEXT LENGTH:  697192/  2195
+Sat Dec 22 14:31:41 2018 # Inserted news. ID:     92. SOURCE/TEXT LENGTH:  750885/  9423
+Sat Dec 22 14:31:49 2018 # Inserted news. ID:    108. SOURCE/TEXT LENGTH:  749294/  9423
+Sat Dec 22 14:32:00 2018 # Inserted news. ID:    120. SOURCE/TEXT LENGTH:  725196/  4405
+Sat Dec 22 14:32:10 2018 # Inserted news. ID:    145. SOURCE/TEXT LENGTH:  730367/  2977
+Sat Dec 22 14:32:17 2018 # Inserted news. ID:    159. SOURCE/TEXT LENGTH:  726451/  4365
+Sat Dec 22 14:32:29 2018 # Inserted news. ID:    230. SOURCE/TEXT LENGTH:  736194/  6795
+Sat Dec 22 14:32:39 2018 # Inserted news. ID:    234. SOURCE/TEXT LENGTH:  745072/  7497
+Sat Dec 22 14:32:46 2018 # Inserted news. ID:    238. SOURCE/TEXT LENGTH:  723194/  3594
+Sat Dec 22 14:32:54 2018 # Inserted news. ID:    252. SOURCE/TEXT LENGTH:  738932/  6509
+Sat Dec 22 14:33:04 2018 # Inserted news. ID:    274. SOURCE/TEXT LENGTH:  727121/  4151
+Sat Dec 22 14:33:10 2018 # Inserted news. ID:    277. SOURCE/TEXT LENGTH:  742592/  8064
+Sat Dec 22 14:33:21 2018 # Inserted news. ID:    283. SOURCE/TEXT LENGTH:  945055/  3968
+Sat Dec 22 14:33:31 2018 # Inserted news. ID:    287. SOURCE/TEXT LENGTH:  747639/  6063
+Sat Dec 22 14:33:41 2018 # Inserted news. ID:    292. SOURCE/TEXT LENGTH:  738112/  8098
+Sat Dec 22 14:33:49 2018 # Inserted news. ID:    298. SOURCE/TEXT LENGTH:  726827/  4194
+Sat Dec 22 14:34:00 2018 # Inserted news. ID:    301. SOURCE/TEXT LENGTH:  752429/  8098
+Sat Dec 22 14:34:09 2018 # Inserted news. ID:    302. SOURCE/TEXT LENGTH:  734700/  6063
+Sat Dec 22 14:34:20 2018 # Inserted news. ID:    308. SOURCE/TEXT LENGTH:  734411/  4194
+Sat Dec 22 14:34:26 2018 # Inserted news. ID:    320. SOURCE/TEXT LENGTH:  733346/  7098
