@@ -154,8 +154,8 @@ if __name__=='__main__':
     conn, cur = DbInitialize(db=db, user='root', passwd="123456", host="localhost")
     # prepare info_list
     cmd = "select id,loc,lastmod,changefreq,priority from {} " \
-        "where status=0 and id not in (select * from (select id from news_bloomberg as tb1) as tb2) " \
-        "and lastmod between {} and {}".format(index_table, "'2010-01-01'", "'2020-12-31'")
+        "where status=0 and id not in (select * from (select id from {} as tb1) as tb2) " \
+        "and lastmod between {} and {}".format(index_table, table, "'2010-01-01'", "'2020-12-31'")
     cur.execute(cmd)
     info_list = cur.fetchall()
     # crawling
