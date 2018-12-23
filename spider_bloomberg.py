@@ -109,7 +109,7 @@ def CrawlByInfo(info, save_pagesource=True):
         entry['error_type'] = "'Welcome, duxin' not found!"
         logger.error("{} # 'Welcome, duxin' not found".format(time.ctime()))
         qmarks = ', '.join(['%s'] * len(entry))
-        cur.execute("insert into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
+        cur.execute("replace into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
         conn.commit()
         raise ValueError("'Welcome, duxin' not found!")
     
@@ -144,6 +144,7 @@ def RebootDriver(driver):
     logger.info("{} # New webdriver initialized".format(time.ctime()))
     return driver
 
+
 if __name__=='__main1__':
     db, table = 'newsspider', 'news_bloomberg_copy'
     logger = LoggerInitialize('news_bloomberg.log')
@@ -157,15 +158,15 @@ if __name__=='__main1__':
         logger.exception("Got unexpected error")
 
 if __name__=='__main__':
-    db, table, error_table = 'newsspider', 'news_bloomberg', 'news_bloomberg_error'
+    db, table, error_table, index_table = 'newsspider', 'news_bloomberg', 'news_bloomberg_error', 'news_bloomberg_index'
     logger = LoggerInitialize('news_bloomberg.log')
     driver = SeleniumInitialize(set_headless=True, binary_path="/home/duxin/bin/firefox/firefox")
     Login(driver)
     conn, cur = DbInitialize(db=db, user='duxin', passwd="", host="localhost")
     # prepare info_list
-    cmd = "select id,loc,lastmod,changefreq,priority from news_bloomberg_index " \
-        "where status=0 and id not in (select * from (select id from news_bloomberg as tb1) as tb2) " \
-        "and lastmod between {} and {}".format("'2010-01-01'", "'2020-12-31'")
+    cmd = "select id,loc,lastmod,changefreq,priority from {} " \
+        "where status=0 and id not in (select * from (select id from {} as tb1) as tb2) " \
+        "and lastmod between {} and {}".format(index_table, table, "'2010-01-01'", "'2020-12-31'")
     cur.execute(cmd)
     info_list = cur.fetchall()
     # crawling
@@ -196,7 +197,23 @@ if __name__=='__main__':
             if flag > 5:
                 time.sleep(300)
                 driver = RebootDriver(driver)
-                Login(driver)
+                flag = 0
+                while flag < 5:
+                    try:
+                        Login(driver)
+                        break
+                    except:
+                        logger.exception("{} # Login failed. Retrying... {}".format(time.ctime(), flag))
+                        flag += 1
+                        time.sleep(10)
+                        continue
+                if flag == 5:
+                    logger.error("{} $ Login failed. Process exits.".format(time.ctime()))
+                    raise ValueError("Login failed. Process exits.")
+                flag = 0
+
+
+
 
         
 

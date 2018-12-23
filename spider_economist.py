@@ -123,7 +123,7 @@ def CrawlByInfo(info, save_pagesource=True):
         logger.error("{} # 'Welcome' not found".format(time.ctime()))
         entry['error_type'] = "'Welcome' not found!"
         qmarks = ', '.join(['%s'] * len(entry))
-        cur.execute("insert into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
+        cur.execute("replace into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
         conn.commit()
     if flag > 0:
         raise ValueError("Fingerprints not found!")
@@ -186,77 +186,19 @@ if __name__=='__main__':
             if flag > 5:
                 time.sleep(300)
                 driver = RebootDriver(driver)
-                Login(driver)
+                flag = 0
+                while flag < 5:
+                    try:
+                        Login(driver)
+                        break
+                    except:
+                        logger.exception("{} # Login failed. Retrying... {}".format(time.ctime(), flag))
+                        flag += 1
+                        time.sleep(10)
+                        continue
+                if flag == 5:
+                    logger.error("{} $ Login failed. Process exits.".format(time.ctime()))
+                    raise ValueError("Login failed. Process exits.")
+                flag = 0
 
         
-
-
-
-
-
-# param = {
-#     #'Referer': 'https://login.bloomberg.com/account',
-#     'email':'duxin_be@outlook.com',
-#     'password':'a19960407'
-# }
-# headers = {
-#     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
-# }
-# resp = sess.post('https://passport.mafengwo.cn/login/', data=param, headers=headers)
-# open('test_html.html', 'wt').write(resp.text)
-
-
-
-# # sess initialization
-# sess = requests.Session()
-# sess.cookies.clear()
-# sess.headers.clear()
-# cookies = ";".join([item["name"] + "=" + item["value"] + "" for item in cookies])
-# # param = {
-# #     #'Referer': 'https://login.bloomberg.com/account',
-# #     'email':'duxin@cl.rcast.u-tokyo.ac.jp',
-# #     #'password':'a19960407'
-# # }
-# headers = {
-#     'referer':'https://login.bloomberg.com',
-#     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-#     'Cookie':cookies
-# }
-# # sess.post('https://login.bloomberg.com/', data=param, headers=headers)
-# # open('test_html.html', 'wt').write(resp.text)
-
-# # db initialization
-# db = pymysql.connect(host="localhost",
-#                      user="root",
-#                      passwd="123456",
-#                      db="newsspider")
-# cur = db.cursor()
-
-# months = [(year,month) for year in range(2015,2019) for month in range(1,13)]
-
-# for year,month in months:
-#     news_sm = json.loads(open('sitemap_bloomberg/feeds_bbiz_sitemap_{}_{}.json'.format(year,month), 'rt').read())
-
-#     for i,info in enumerate(news_sm):
-#         loc, lastmod, changefreq, priority = info['loc'], info['lastmod'], info['changefreq'], info['priority']
-#         resp = sess.get(loc, headers=headers, verify=True)
-#         if 200 != resp.status_code:
-#             logger.error("{} # Response error. CODE: {:>4}. MESSAGE: {}".format(time.ctime(), resp.status_code, resp.reason))
-#             continue
-#         text = resp.text
-        
-#         # insert into database
-#         entry = {'loc':loc,
-#                 'publishat':re.findall(r'\d{4}-\d{2}-\d{2}', loc)[0],
-#                 'lastmod':lastmod.replace('T',' ').replace('Z',''),
-#                 'changefreq':changefreq,
-#                 'priority':str(priority),
-#                 'content':text}
-#         qmarks = ', '.join(['%s'] * len(entry))
-#         cur.execute("insert into news_bloomberg_copy ({}) values({})".format(','.join(entry.keys()), qmarks), list(entry.values()))
-#         if 0 == (i+1) % 10:
-#             db.commit()
-#         logger.info("{} # Inserted news. ID: {:>6d}. LENGTH: {:>6d}".format(time.ctime(), cur.lastrowid, len(text)))
-#         if 0 == (i+1) % 100:
-#             logger.info("{} # Current progress: {}-{}, {:4}/{:4}".format(time.ctime(), year, month, i+1, len(news_sm)))
-#         time.sleep(5)
