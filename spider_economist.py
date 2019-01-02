@@ -118,10 +118,15 @@ def CrawlByInfo(info, save_pagesource=True):
             'text':text}
 
     flag = 0
+    
     if "Welcome" not in text:
-        flag += 1
-        logger.error("{} # 'Welcome' not found".format(time.ctime()))
-        entry['error_type'] = "'Welcome' not found!"
+        if "We are unable to find the page" not in text:
+            logger.error("{} # 404 : Page not found".format(time.ctime()))
+            entry['error_type'] = "404 : Page not found!"
+        else:
+            flag += 1
+            logger.error("{} # 'Welcome' not found".format(time.ctime()))
+            entry['error_type'] = "'Welcome' not found!"
         qmarks = ', '.join(['%s'] * len(entry))
         cur.execute("replace into {} ({}) values({})".format(error_table, ','.join(entry.keys()), qmarks), list(entry.values()))
         conn.commit()
