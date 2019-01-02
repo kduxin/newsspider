@@ -181,7 +181,7 @@ if __name__=='__main__':
     # prepare info_list
     cmd = "select id,loc,lastmod,changefreq,priority from {} " \
         "where status=0 and id not in (select * from (select id from {} as tb1) as tb2) " \
-        "and lastmod between {} and {}".format(index_table, table, "'2010-01-01'", "'2020-12-31'")
+        "and lastmod between {} and {} order by id desc".format(index_table, table, "'1900-01-01'", "'2020-12-31'")
     cur.execute(cmd)
     info_list = cur.fetchall()
     # crawling
