@@ -132,7 +132,8 @@ def CrawlByInfo(info, save_pagesource=True):
         conn.commit()
     if flag > 0:
         raise ValueError("Fingerprints not found!")
-    del entry['error_type']
+    if 'error_type' in entry:
+        del entry['error_type']
     
     qmarks = ', '.join(['%s'] * len(entry))
     cur.execute("insert into {} ({}) values({})".format(table, ','.join(entry.keys()), qmarks), list(entry.values()))
