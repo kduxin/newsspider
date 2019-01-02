@@ -152,6 +152,21 @@ def RebootDriver(driver):
     logger.info("{} # New webdriver initialized".format(time.ctime()))
     return driver
 
+def TryLogin(driver):
+    flag = 0
+    while flag < 5:
+        try:
+            Login(driver)
+            break
+        except:
+            logger.exception("{} # Login failed. Retrying... {}".format(time.ctime(), flag))
+            flag += 1
+            time.sleep(10)
+            continue
+    if flag == 5:
+        logger.error("{} $ Login failed. Process exits.".format(time.ctime()))
+        raise ValueError("Login failed. Process exits.")
+
     
 if __name__=='__main__':
     db, table, error_table, index_table = 'newsspider', 'news_economist', 'news_economist_error', 'news_economist_index'
@@ -183,29 +198,21 @@ if __name__=='__main__':
             if 0 == (i+1) % 300:
                 logger.info("{} # Sleep for a while... (3min)".format(time.ctime()))
                 time.sleep(180)
+            if 0 == (i+1) % 10000:
+                logger.info("{} # Reboot the webdriver for cache clearance".format(time.ctime()))
+                driver = RebootDriver(driver)
+                TryLogin(driver)
             
             time.sleep(random.random()*5)
             flag = 0
         except Exception as e:
-            logger.exception("{} # Got unexpected error. Recent fails: {}".format(time.ctime(), flag+1))
+            logger.exception("{} # Got unexpected error. Recent fails: {} \nUrl: {}".format(time.ctime(), flag+1, loc))
             flag += 1
             time.sleep(20)
-            if flag > 5:
+            if flag > 10:
                 time.sleep(300)
                 driver = RebootDriver(driver)
-                flag = 0
-                while flag < 5:
-                    try:
-                        Login(driver)
-                        break
-                    except:
-                        logger.exception("{} # Login failed. Retrying... {}".format(time.ctime(), flag))
-                        flag += 1
-                        time.sleep(10)
-                        continue
-                if flag == 5:
-                    logger.error("{} $ Login failed. Process exits.".format(time.ctime()))
-                    raise ValueError("Login failed. Process exits.")
+                TryLogin(driver)
                 flag = 0
 
         
