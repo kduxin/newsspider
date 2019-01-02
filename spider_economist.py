@@ -120,7 +120,7 @@ def CrawlByInfo(info, save_pagesource=True):
     flag = 0
     
     if "Welcome" not in text:
-        if "We are unable to find the page" not in text:
+        if "We are unable to find the page" in text:
             logger.error("{} # 404 : Page not found".format(time.ctime()))
             entry['error_type'] = "404 : Page not found!"
         else:
